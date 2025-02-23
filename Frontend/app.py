@@ -3,7 +3,7 @@ import requests
 import base64
 from io import BytesIO
 
-API_URL = "http://127.0.0.1:8000/query"  # Adjust if needed
+API_URL = "https://titanic-dataset-chat-agent.onrender.com/query"  # Adjust if needed
 
 st.title("🚢 Titanic Dataset Chatbot")
 
